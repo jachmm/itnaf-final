@@ -18,6 +18,10 @@ Tretter is a simple blog platform inspired by Twitter. Users can register, log i
 > npm install
 4. To run the app locally:
 > npm run dev
+5. (Optional) If you want to see some posts you can log into admin account
+> login:admin password: admin
+
 
 ## Additional Libraries
+Flask API that I've created for this project
 MaterialUI: Used to create the search bar with autocomplete functionality.
