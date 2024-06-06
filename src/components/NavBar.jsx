@@ -11,7 +11,7 @@
 
         return (
             <nav className="navbar">
-                <img src='/Logo.png' style={{width: '150px'}}/>
+                <img src='Logo.png' style={{width: '150px'}}/>
                 <ul className="nav-list">
                     <li className="nav-item">
                         <NavLink to="/" className="nav-link" >Home</NavLink>
