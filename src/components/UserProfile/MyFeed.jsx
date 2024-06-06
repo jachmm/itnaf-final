@@ -7,7 +7,7 @@ const MyFeed = ({loggedIn}) => {
     useEffect(() => {
         if (!loggedIn) {
             window.alert("You must be logged in to see your posts");
-            useNavigate('/login');
+            useNavigate('/itnaf-final/login');
         }
         const username = localStorage.getItem('username');
 

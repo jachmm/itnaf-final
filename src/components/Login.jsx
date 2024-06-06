@@ -21,7 +21,7 @@ const Login = ({ onLogin }) => {
         localStorage.setItem('username', username);
         window.alert('Successfully logged in');
         onLogin();
-        navigate('/');
+        navigate('/itnaf-final/');
       } else {
         window.alert('Bad credentials');
       }

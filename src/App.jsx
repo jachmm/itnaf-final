@@ -72,10 +72,10 @@ function App() {
           <SearchBar />
           <div className="main-content">
             <Routes>
-              <Route path="/" element={<Home loggedIn={loggedIn} />} />
-              <Route path="/login" element={<Login onLogin={handleLogin} />} />
-              <Route path="/register" element={<Register />} />
-              <Route path="/users/:username" element={<Profile loggedUserData={user} refreshUserData={refreshUserData} />} />
+              <Route path="/itnaf-final/" element={<Home loggedIn={loggedIn} />} />
+              <Route path="/itnaf-final/login" element={<Login onLogin={handleLogin} />} />
+              <Route path="/itnaf-final/register" element={<Register />} />
+              <Route path="/itnaf-final/users/:username" element={<Profile loggedUserData={user} refreshUserData={refreshUserData} />} />
             </Routes>
           </div>
         </div>

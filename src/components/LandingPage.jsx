@@ -9,8 +9,8 @@ const LandingPage = () => {
           <h1>Tretter</h1>
           <p>Your Microblogging Platform</p>
           <nav>
-            <Link to="/login" className="btn-nav">Login</Link>
-            <Link to="/register" className="btn-nav">Sign Up</Link>
+            <Link to="/itnaf-final/login" className="btn-nav">Login</Link>
+            <Link to="/itnaf-final/register" className="btn-nav">Sign Up</Link>
           </nav>
         </div>
       </header>
@@ -19,7 +19,7 @@ const LandingPage = () => {
         <div className="container">
           <h2>Welcome to Tretter</h2>
           <p>Join our community and share your thoughts with the world!</p>
-          <Link to="/register" className="btn-primary">Get Started</Link>
+          <Link to="/itnaf-final/register" className="btn-primary">Get Started</Link>
         </div>
       </section>
 

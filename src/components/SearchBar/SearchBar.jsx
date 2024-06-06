@@ -17,7 +17,7 @@ const SearchBar = () => {
     const handleSelectUser = (event, newValue) => {
         setSelectedUser(newValue);
         if (newValue !== null) {
-            navigate(`/users/${newValue}`);
+            navigate(`/itnaf-final/users/${newValue}`);
         }
     };
 

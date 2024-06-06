@@ -22,7 +22,7 @@ const Register = () => {
 
       if (response.status === 201) {
         window.alert('Successfully created user: ' + username);
-        navigate('/login');
+        navigate('/itnaf-final/login');
       } else {
         window.alert('Username is already taken');
       }

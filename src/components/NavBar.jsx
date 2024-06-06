@@ -14,21 +14,21 @@
                 <img src='Logo.png' style={{width: '150px'}}/>
                 <ul className="nav-list">
                     <li className="nav-item">
-                        <NavLink to="/" className="nav-link" >Home</NavLink>
+                        <NavLink to="/itnaf-final/" className="nav-link" >Home</NavLink>
                     </li>
                     {!loggedIn && (
                         <li className="nav-item">
-                            <NavLink to="/login" className="nav-link" >Login</NavLink>
+                            <NavLink to="/itnaf-final/login" className="nav-link" >Login</NavLink>
                         </li>
                     )}
                     {!loggedIn && (
                         <li className="nav-item">
-                            <NavLink to="/register" className="nav-link" >Register</NavLink>
+                            <NavLink to="/itnaf-final/register" className="nav-link" >Register</NavLink>
                         </li>
                     )}
                     {loggedIn && (
                         <li className="nav-item">
-                            <NavLink to={`/users/${user}`} className="nav-link" >My Profile</NavLink>
+                            <NavLink to={`/itnaf-final/users/${user}`} className="nav-link" >My Profile</NavLink>
                         </li>
                     )}
                 </ul>

@@ -8,7 +8,7 @@ const AddPost = ({ loggedIn }) => {
         event.preventDefault();
         if (!loggedIn) {
             window.alert("To add post you must log in");
-            useNavigate('/login');
+            useNavigate('/itnaf-final/login');
         }
 
         const username = localStorage.getItem('username');
